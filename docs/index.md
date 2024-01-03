@@ -1,23 +1,9 @@
 ---
-title: A static site based on dumi
+title: AICC组件库
 hero:
-  title: Site
-  description: A static site based on dumi
+  title: AICC
+  description: 桌面端组件框架
   actions:
-    - text: Hello
-      link: /
-    - text: World
-      link: /
-features:
-  - title: Hello
-    emoji: 💎
-    description: Put hello description here
-  - title: World
-    emoji: 🌈
-    description: Put world description here
-  - title: '!'
-    emoji: 🚀
-    description: Put ! description here
+    - text: 开始上手
+      link: /component
 ---
-
-
