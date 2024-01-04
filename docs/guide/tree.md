@@ -13,7 +13,7 @@ group:
 在antd的基础以及cbdes业务的基础上，对search进行封装
 
 ### 代码演示
-<code src="./codeSec/tree.tsx">output代码演示</code>
+<code src="./codeSec/tree.tsx">tree代码演示</code>
 
 ### Config
 
