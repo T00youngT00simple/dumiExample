@@ -7,6 +7,8 @@ group:
   order: 2
 ---
 
+# Output
+
 ### 何时使用
 基于xterm.js封装，完成仅限输出的日志显示功能
 
