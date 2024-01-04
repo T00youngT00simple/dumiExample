@@ -5,6 +5,8 @@ nav:
 group:
   title: 反馈
   order: 3
+demo:
+  cols: 2
 ---
 
 # Dialog
@@ -13,51 +15,7 @@ group:
 在antd的modal组件基础上，对接受Modal.something的静态方法的提示图标提示框进行封装
 
 ### 代码演示
-
-```jsx
-/* eslint-disable */
-import React, { useEffect, useState, useRef } from 'react';
-import { Button } from 'antd';
-import CBDESDialog from './componentDemo/CBDESDialog';
-
-function EXample(props) {
-	const [dialogVisible, setDialogVisible] = useState(null);
-	const [dialogType, setDialogType] = useState(null);
-
-	const constructDialogTitle = () => {
-		return dialogType == 'info' ? '完成' : '失败';
-	};
-
-	const constructDialogMessage = () => {
-		return dialogType == 'info' ? '代码已成功生成' : '代码生成失败';
-	};
-
-	const openDialog = () => {
-		setDialogVisible(true);
-		setDialogType('info');
-	};
-
-	const handleCancel = () => {
-		setDialogVisible(false);
-	}
-
-	return (
-		<div>
-			<Button onClick={openDialog}>提示窗口</Button>
-			<CBDESDialog 
-				footer={null}
-				title={constructDialogTitle()}
-				type={dialogType}
-				handleCancel={handleCancel}
-				message={constructDialogMessage()}
-				visible={dialogVisible}/>
-		</div>
-	);
-}
-
-export default EXample;
-
-```
+<code src="./codeSec/dialog.jsx">dialog代码演示</code>
 
 ### Config 
 

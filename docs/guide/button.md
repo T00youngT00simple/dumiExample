@@ -5,6 +5,8 @@ nav:
 group:
   title: 通用
   order: 1
+demo:
+  cols: 2
 ---
 
 # Button
@@ -30,23 +32,8 @@ group:
 
 
 ### 代码演示
-- 基本使用，type
-```jsx
-import React from 'react';
-import { Button, Flex } from 'antd';
+<code src="./codeSec/button.tsx">button type代码演示</code>
 
-const App: React.FC = () => (
-  <Flex gap="small" wrap="wrap">
-    <Button type="primary">Primary Button</Button>
-    <Button>Default Button</Button>
-    <Button type="dashed">Dashed Button</Button>
-    <Button type="text">Text Button</Button>
-    <Button type="link">Link Button</Button>
-  </Flex>
-);
-
-export default App;
-```
 ### Config
 
 | 属性 | 说明 | 类型 | 默认值 |
