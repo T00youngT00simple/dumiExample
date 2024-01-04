@@ -47,7 +47,7 @@ const App: React.FC = () => (
 
 export default App;
 ```
-### API 
+### Config
 
 | 属性 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |

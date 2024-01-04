@@ -12,7 +12,6 @@ group:
 ### 何时使用
 在antd的基础以及cbdes业务的基础上，对search进行封装
 
-
 ### 代码演示
 
 ```jsx
@@ -149,7 +148,7 @@ const App: React.FC = () => {
 export default App;
 ```
 
-### API
+### Config
 
 | 参数 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |

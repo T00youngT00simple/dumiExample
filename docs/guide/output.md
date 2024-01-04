@@ -37,5 +37,16 @@ function EXample(props) {
 
 export default EXample;
 
-
 ```
+
+### API
+
+| 属性 | 参数 | 说明 |
+| --- | --- | --- |
+| setLogDataInfo | (params: string) | 打印信息 |
+
+### Config
+
+| 属性 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| clearAll | 显示清除全部内容按钮 | boolean | false |

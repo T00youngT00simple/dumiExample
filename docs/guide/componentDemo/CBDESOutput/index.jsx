@@ -2,6 +2,7 @@ import { Button } from 'antd'
 import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react'
 import { Terminal } from 'xterm'
 import { FitAddon } from 'xterm-addon-fit'
+import './index.less'
 
 const CBDESOutput = forwardRef((props, ref) => {
   const terminal = useRef()

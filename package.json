@@ -29,6 +29,7 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
     "antd": "^5.12.7",
     "xterm": "^5.3.0",
     "xterm-addon-fit": "^0.8.0"
