@@ -14,6 +14,12 @@ group:
 ### 代码演示
 <code src="./codeSec/notification.jsx">notification代码演示</code>
 
+### API 
+
+| 属性 | 参数 | 说明 |
+| --- | --- | --- |
+| open | (params:  message?: string desc?: string  duration?: number) | 打开提示 |
+
 ### Config 
 
 | 属性 | 说明 | 类型 | 默认值 |
