@@ -9,7 +9,7 @@ demo:
   cols: 2
 ---
 
-# Output
+# CBDESOutput日志输出
 
 ### 何时使用
 基于xterm.js封装，完成仅限输出的日志显示功能

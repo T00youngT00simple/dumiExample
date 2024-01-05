@@ -9,7 +9,7 @@ demo:
   cols: 2
 ---
 
-# Dialog
+# CBDESDialog提示框
 
 ### 何时使用
 在antd的modal组件基础上，对接受Modal.something的静态方法的提示图标提示框进行封装

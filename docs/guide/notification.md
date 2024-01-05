@@ -6,7 +6,7 @@ group:
   title: 反馈
   order: 3
 ---
-# Notification
+# CBDESNotification全局提示
 
 ### 何时使用
 全局的信息提示
